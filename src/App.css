@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+h1{
+color: red;}
+
+.container{
+  height: 400px;
+  width: 60vw;
+  
+}
+.form-control{
+  width: 60vw;
+}
+  
+

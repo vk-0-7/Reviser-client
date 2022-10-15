@@ -1,0 +1,148 @@
+body{
+    /* background-image: linear-gradient(170deg, rgb(179, 196, 254) 80%, ); */
+    
+     overflow-x:hidden;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     scroll-behavior:inherit;
+    
+    
+
+
+     
+}
+.box1
+{
+   
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    background-color: #0093E9;
+    background-image: linear-gradient(170deg, #156b9d 0%, #80f8ea 100%);
+    
+}
+.firstImage{
+    /* border: 2px solid red; */
+    margin: 15px;
+    padding: 15px;
+    height: 80vh;
+    width: 45vw;
+}
+.firstImage img{
+    height: 80%;
+    width: 100%;
+   
+}
+
+
+.intro{
+    height: 80%;
+    width: 45%;
+    margin: auto;
+    /* border: 2px solid black; */
+    /* text-align: center; */
+}
+.intro p{
+    font-family: 'Merriweather', serif;
+    font-size: 3.8rem;
+    line-height: 65px;
+    padding: 20px;
+    color: rgb(26, 55, 35);
+    font-weight: 500;
+    text-shadow: 1px 1px 6px rgb(224, 94, 94);
+}
+.intro2,.img{
+    display: none;
+
+}
+
+.info{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 28px;
+    background-color: #2a7b4f;
+background-image: linear-gradient(45deg, #2a7b4f 0%, #797629 100%);
+ z-index: 1000;
+}
+
+.info p{
+    font-size: 1.8rem;
+    color: rgb(9, 9, 9);
+    line-height: 60px;
+}
+.info span {
+    padding-left: 70px;
+    font-size: 2.8rem;
+    color: rgb(66, 25, 117);
+    line-height: 60px;
+    /* border: 1px solid red; */
+    /* text-indent: 10rem; */
+}
+
+   @media(max-width:500px){
+    
+    .firstImage{
+        display: none;
+    }
+
+    .box1{
+        height: 100vh;
+        display: block;
+        padding: 0px;
+       
+    }
+    .intro{
+        padding-top: 50px;
+        height: 42vh;
+         width: 100%;
+        margin: 0px;
+       /* border: 2px solid red; */
+       
+    }
+    .intro p{
+       
+        font-size: 3.2rem;
+        line-height: 65px;
+        
+    }
+
+   .intro2{
+    padding: 5px 20px;
+    display: block;
+    color: rgb(9, 9, 9);
+    /* border: 1px solid black; */
+
+
+   }
+
+   .img{
+       margin-top: 20px;
+       z-index: 2;
+       height: 50vh;
+       width: 100vw;
+       display: block;
+       position: relative;
+       left: 0px;
+       opacity: 0.7;
+       
+       margin-left: 0px;
+       
+   }
+  .img img{
+    
+    height: 100%;
+    width: 100%;
+
+  }
+.overlay{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0,0.5);
+}  
+    
+}

@@ -1,0 +1,61 @@
+  
+ 
+  
+  
+  .main-div {
+      height: 100%;
+      width: 32vw;
+      margin: 30px auto;
+      text-align: center;
+      border: 2px solid red;
+  }
+
+  .text {
+
+      margin-Bottom: 40px;
+      color: black;
+      font-Size: 2.5rem;
+      font-Family: 'Fira Sans', sans-serif;
+
+  }
+
+
+  @media (max-width:1000px) {
+      .main-div {
+         width: 40vw;
+
+      }
+
+      .text {
+           margin-Bottom: 40px;
+           font-Size: 2.5rem;
+            }
+
+  }
+
+  @media (max-width:800px) {
+      .main-div {
+         width: 65vw;
+
+      }
+
+      .text {
+           margin-Bottom: 30px;
+           font-Size: 2.3rem;
+            }
+
+  }
+  @media (max-width:500px) {
+      .main-div {
+        height: 100%;
+         width: 70vw;
+         
+
+      }
+
+      .text {
+           margin-Bottom: 30px;
+           font-Size: 2rem;
+            }
+
+  }

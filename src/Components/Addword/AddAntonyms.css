@@ -1,0 +1,184 @@
+
+.input input{
+      height: 50px;
+      width: 250px;
+      border-radius: 8px;
+      border: 1px solid black;
+      font-size: 1.3rem;
+      padding-inline: 10px;
+}
+.input span{
+    /* border: 1px solid red; */
+    font-size: 1.5rem;
+    margin: 8px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Inter Tight', sans-serif;
+}
+.col{
+    margin: 30px;
+}
+.col button{
+     width: 70px;
+     padding: 5px;
+     margin-inline:10px;
+     font-size: 1.4rem;
+     border: 1px solid blue;
+     background-color: rgb(123, 123, 168);
+     border-radius: 10px;
+}
+
+
+
+.table{
+    width: 500px;
+    display: flex;
+    margin:  80px auto ;
+    justify-content: center;
+   align-items: center;
+
+}
+table{
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+  
+}
+
+th{
+    font-size: 1.8rem;
+    padding: 10px;
+    color: rgb(89, 5, 106);
+   text-align: center;
+    
+}
+td{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    
+}
+table, th, td {
+    border: 1px solid rgb(39, 1, 1);
+    font-family: 'Noto Serif', serif;
+    
+  }
+
+
+
+@media (max-width:850px){
+     
+       
+.input input{
+    height: 42px;
+    width: 150px;
+   
+    font-size: 1.2rem;
+    
+}
+.col{
+    margin: 3px;
+}
+
+.input span{
+    font-size: 1.3rem;
+    margin: 6px;
+    padding: 7px;
+  
+}
+
+
+table{
+    width: 400px;
+    text-align: center;
+}
+  }
+
+
+
+@media (max-width:700px){
+     
+       
+.input input{
+    height: 35px;
+    width: 120px;
+   font-size: 1.2rem;
+    
+}
+
+.input span{
+    font-size: 1.2rem;
+    margin: 4px;
+    padding: 5px;
+   
+}
+
+
+.table{
+    width: 410px;
+   margin: 70px auto;
+}
+.col{
+    margin: 2px;
+}
+.col button{
+    width: 60px;
+    padding: 3px;
+    margin-inline:5px;
+    font-size: 1.3rem;
+    
+}
+
+th{
+    font-size: 1.5rem;
+    padding: 9px;
+    
+ 
+}
+td{
+    font-size: 1.4rem;
+    padding: 9px;
+}
+  }
+@media (max-width:500px){
+     
+       
+.input input{
+    height: 25px;
+    width: 90px;
+   font-size: 1.15rem;
+    
+}
+
+.input span{
+    font-size: 1.02rem;
+    margin: 3px;
+    padding: 4px;
+   
+}
+
+
+.table{
+   width: 360px;
+   margin: 50px auto;
+}
+
+.col button{
+    width: 55px;
+    padding-inline: 3px;
+    margin-inline:4px;
+    font-size: 1.08rem;
+    
+}
+
+th{
+    font-size: 1.3rem;
+    padding: 8px;
+    
+ 
+}
+td{
+    font-size: 1.2rem;
+    padding: 8px;
+}
+  }
