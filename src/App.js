@@ -31,7 +31,7 @@ const App = () => {
   
 
   const getAntonyms = () => {
-    axios.get("http://localhost:9000/getantonyms").then((response) => {
+    axios.get("https://reviser-back.herokuapp.com/getantonyms").then((response) => {
       setAntData(response.data);
     });
   };
@@ -42,7 +42,7 @@ const App = () => {
 
 
   const getSynonyms=()=>{
-    axios.get("http://localhost:9000/getsynonyms")
+    axios.get("https://reviser-back.herokuapp.com/getsynonyms")
        .then((response) =>{
          const data=response.data
          setSynData(data)

@@ -22,7 +22,7 @@ const AddSyno=(e) =>{
  const AddSynonym= ()=>{
       const{word,synonym,email}=Syno;
       if(word && synonym && email){
-        axios.post("http://localhost:9000/addsynonyms",Syno)
+        axios.post("https://reviser-back.herokuapp.com/addsynonyms",Syno)
         .then(() =>{
             setSynData([...synData,{word,synonym,email}])
             
@@ -35,7 +35,7 @@ const AddSyno=(e) =>{
  }
 
  const getSynonyms=()=>{
-  axios.get("http://localhost:9000/getsynonyms")
+  axios.get("https://reviser-back.herokuapp.com/getsynonyms")
      .then((response) =>{
        const data=response.data
        setSynData(data)

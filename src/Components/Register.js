@@ -24,7 +24,7 @@ const Register = () => {
 const submit=()=>{
        const {username,name,email,password,confirmPassword}=user;
        if(username && name && email && password &&confirmPassword && password===confirmPassword){
-        axios.post("http://localhost:9000/register",user).then((res) =>{
+        axios.post("https://reviser-back.herokuapp.com/register",user).then((res) =>{
           alert(res.data.message);
           history.push("/login");
         });
@@ -32,10 +32,7 @@ const submit=()=>{
        else{
         alert("Invalid Input");
        }
-}
-
-
-
+} 
 
   return (
     <div className="register">

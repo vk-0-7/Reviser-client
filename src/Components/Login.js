@@ -20,7 +20,7 @@ const Login = ({ setLoginUser }) => {
 
   const login = () => {
     // const {email,password} =user
-    axios.post("http://localhost:9000/login", user).then((res) => {
+    axios.post("https://reviser-back.herokuapp.com/login", user).then((res) => {
       alert(res.data.message);
       
 

@@ -34,7 +34,7 @@ const addword=(e)=>{
  const addAntonym = ()=>{
 const{word,antonym,email}=dictionary;
   if(word && antonym && email){
-    axios.post("http://localhost:9000/addantonyms",dictionary)
+    axios.post("https://reviser-back.herokuapp.com/addantonyms",dictionary)
     .then(() =>{
         setAntData([...antData,{word,antonym,email}])
        
@@ -47,7 +47,7 @@ const{word,antonym,email}=dictionary;
      }
 }
   const getAntonyms=()=>{
-axios.get("http://localhost:9000/getantonyms")
+axios.get("https://reviser-back.herokuapp.com/getantonyms")
    .then((response) =>{
      const data=response.data
      setAntData(data)
