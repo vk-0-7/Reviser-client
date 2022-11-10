@@ -40,7 +40,7 @@ const showNavBar=() =>{
               aria-expanded="false"
             >
               Take a Quiz
-            </button>
+            </button> 
             <ul
               class="dropdown-menu dropdown-menu-dark"
               aria-labelledby="dropdownMenuButton2"

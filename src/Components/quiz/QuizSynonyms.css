@@ -111,6 +111,7 @@
        .quizbox{
            left: 13%;
            width: 75vw;
+           height: 65vh;
    
        }
    
@@ -132,9 +133,9 @@
            padding-inline: 10px;
           
        }
-       .buttons button{
+       .button button{
            padding: 7px;
            font-weight: bold;
-       
+           font-size: 0.8rem;
        }
    }
