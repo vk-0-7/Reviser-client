@@ -16,12 +16,12 @@ const Home = ({user}) => {
             <img src={image1} alt="image not found" />
             </div>  
         <div className="intro">
-            <p>A Unique Platform to improve English Grammer. </p>
+            <p>A Unique  and Creative educational Platform to improve English Grammer. </p>
          </div>
-        <div className="intro2">
+        {/* <div className="intro2">
           <h5>  A Unique and creative educational platform to enhance english grammer.</h5> 
            
-        </div>
+        </div> */}
 
 
         <div className="img">

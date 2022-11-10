@@ -8,7 +8,7 @@
     padding-inline: 10px;
 }
 .input span{
-  /* border: 1px solid red; */
+  
   font-size: 1.5rem;
   margin: 8px;
   padding: 10px;
@@ -140,32 +140,33 @@ td{
 @media (max-width:500px){
    
      
-.input input{
-  height: 25px;
-  width: 90px;
- font-size: 1.15rem;
-  
+  .input input{
+    height: 33px;
+    width: 200px;
+    font-size: 1.05rem;
+    margin: 8px 17px 0px 22px;
+    
 }
 
 .input span{
-  font-size: 1.02rem;
-  margin: 3px;
-  padding: 4px;
- 
+    font-size: 1.04rem;
+    margin: 20px 0px 0px 6px;
+    padding: 4px;
+   
 }
 
 
 .table{
- width: 360px;
- margin: 50px auto;
+   width: 350px;
+   margin: 50px auto;
 }
-
 .col button{
-  width: 55px;
-  padding-inline: 3px;
-  margin-inline:4px;
-  font-size: 1.08rem;
-  
+    height: 35px;
+    width: 110px;
+    padding-inline: 3px;
+    margin-inline: 4px;
+    font-size: 1.1rem;
+    margin: 25px 39px 0px 1px
 }
 
 th{

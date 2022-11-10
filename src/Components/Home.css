@@ -90,14 +90,15 @@ background-image: linear-gradient(45deg, #2a7b4f 0%, #797629 100%);
     }
 
     .box1{
-        height: 100vh;
+        height: 106vh;
         display: block;
         padding: 0px;
+        /* border: 2px solid red; */
        
     }
     .intro{
-        padding-top: 50px;
-        height: 42vh;
+        padding-top: 30px;
+        height: 53vh;
          width: 100%;
         margin: 0px;
        /* border: 2px solid red; */
@@ -105,19 +106,19 @@ background-image: linear-gradient(45deg, #2a7b4f 0%, #797629 100%);
     }
     .intro p{
        
-        font-size: 3.2rem;
+        font-size: 2.2rem;
         line-height: 65px;
         
     }
 
-   .intro2{
+   /* .intro2{
     padding: 5px 20px;
     display: block;
     color: rgb(9, 9, 9);
-    /* border: 1px solid black; */
+    
 
 
-   }
+   } */
 
    .img{
        margin-top: 20px;

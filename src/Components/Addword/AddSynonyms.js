@@ -58,7 +58,7 @@ const AddSyno=(e) =>{
 
 <div className="input" >
   <input type="text"  name='word' value={Syno.word} onChange={AddSyno} placeholder="eg. Fat" />
-  <span  >Synonyms</span>
+  {/* <span  >Synonyms</span> */}
   <input type="text"   name='synonym' value={Syno.synonym} onChange={AddSyno} placeholder="Bulky" />
 </div>
 

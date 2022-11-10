@@ -74,7 +74,7 @@ axios.get("https://reviser-back.herokuapp.com/getantonyms")
 
 <div className="input" >
   <input type="text"  placeholder="eg. Fat" name='word' value={dictionary.word} onChange={addword}/>
-  <span  >Antonyms</span>
+  {/* <span  >Antonyms</span> */}
   <input type="text"  placeholder="Thin"   name='antonym' value={dictionary.antonym} onChange={addword}/>
 </div>
 

@@ -64,13 +64,13 @@
 
     .registerForm input {
 
-        font-size: 1.06rem;
+        font-size: 0.93rem;
     
       }
       .registerBtn {
         
         padding: 4px;
-        font-size: 1.1rem;
+        font-size: 0.99rem;
         
     }
 }

@@ -110,7 +110,7 @@ background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     .newsletter{
         display: flex;
        
-        margin: 0px 40px;
+        margin: 0px 0px;
        
     }
 }

@@ -26,7 +26,7 @@ const showNavBar=() =>{
         <div className="leftNav">
           <img className="logo" src={logo} alt="logo not found" />
           <a href="/" className="reviser">
-            <h2> Reviser </h2>{" "}
+            <p> Reviser </p>{" "}
           </a>
         </div>
 
